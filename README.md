@@ -1,4 +1,4 @@
-Analysing Disneyland Reviews with NLP
+# Analysing Disneyland Reviews with NLP
 
 ## EDA, Word Clouds, Sentiment Analysis, Emotion Detection, Collocation, and Topic Modelling
 
@@ -13,8 +13,7 @@ out sentiment analysis, emotion detection, and n-gram associations. I have also
 done topic modelling using which we can Identify visitor pain points and improve
 park experience.
 
-Inspiration: [References1!..]
-(https://towardsdatascience.com/analyzing-disneyland-reviews-b916b6dcccf4)
+Inspiration: [References1!..](https://towardsdatascience.com/analyzing-disneyland-reviews-b916b6dcccf4)
 
 # Dataset:
 
