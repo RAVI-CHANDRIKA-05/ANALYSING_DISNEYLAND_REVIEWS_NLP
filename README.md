@@ -289,4 +289,4 @@ From our topic model, we were able to obtain top keywords from each topic:
 
 ![](images/49787448264cba498730212f3b29d087.png)
 
-![](images/15528115f1afd0088aabae60f89298fa.png)![](images/0a6018581e8c4193ac50c18331c4a33e.png)
+![](images/0a6018581e8c4193ac50c18331c4a33e.png)![](images/15528115f1afd0088aabae60f89298fa.png)
