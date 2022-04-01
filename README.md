@@ -80,8 +80,8 @@ sentiment. For this step, I used three methods TextBlob, Vader and NLTK.
 ### Sentiment Analysis using TextBlob:
 
 ![](images/e950f9ac58716d8fc96d70b9a72b856f.png)
-The sentiment function of
-textblob returns two properties, polarity, and subjectivity.
+
+The sentiment function of textblob returns two properties, polarity, and subjectivity.
 
 #### What is Sentiment Polarity
 
@@ -98,8 +98,9 @@ textblob returns two properties, polarity, and subjectivity.
     information contained in the text. The higher subjectivity means that the
     text contains personal opinion rather than factual information.
 
--   ![](images/e11155c920cc33e4a394d6780aa8a5be.png)Subjectivity is also a float
-    which lies in the range of [0,1].
+-   Subjectivity is also a float which lies in the range of [0,1].
+
+![](images/e11155c920cc33e4a394d6780aa8a5be.png)
 
 ### VADER Sentiment Analysis:
 
@@ -128,6 +129,7 @@ ratings which have been normalized between -1(most extreme negative) and +1
 -   neutral sentiment: (compound score \>=0.4) and (compound score \< 0.65)
 
 -   negative sentiment:    (compound score \<0.4)
+
 ![](images/1489b4cd8b82508551ede88e02637166.png)
 
 ### Using NLTK’s Pre-Trained Sentiment Analyzer
@@ -155,9 +157,6 @@ instance we can classify the reviews.
 
 ![](images/b6a8519959dd6ee9a0c1a29e6a6417db.png)
 
-### 
-
-### 
 
 ### Assigning sentiment based on ratings:
 
@@ -168,6 +167,7 @@ Last but not the least is assigning sentiment based on the rating.
 -   neutral sentiment: (rating==3)
 
 -   negative sentiment: (rating <3)
+
 ![](images/09fe074dc99ba9e3c5accfa7c71070db.png)
 
 # Emotion Detection
@@ -257,9 +257,9 @@ of tickets they purchased and experience.
 # Find reviews where ngram occurs
 
 ![](images/6f4827e0ab30d6e9b50e653235b5be8e.png)
-Using collocation identification
-and further analysing visitor sentiment on toy story land, we can find the
-emotion on reviews.
+
+Using collocation identification and further analysing visitor sentiment on toy story land, 
+we can find the emotion on reviews.
 
 # Topic Modelling
 
