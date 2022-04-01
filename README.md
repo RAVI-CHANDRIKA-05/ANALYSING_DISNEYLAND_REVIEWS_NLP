@@ -21,6 +21,7 @@ The dataset is found in Kaggle containing 42,000 reviews from TripAdvisor about
 three Disneyland branch locations: California, Paris, Hong Kong.
 
 ![](images/299201dfec41f8de1156ce01ae5e3df5.png)
+
 There are 19,406 reviews about California, 13,630 about Paris, and 9,620 about Hong Kong.
 Data variables include Review_ID, Rating, Year_Month, Reviewer_Location, Review_Text, and Disneyland_Branch.
 
@@ -28,8 +29,7 @@ Data variables include Review_ID, Rating, Year_Month, Reviewer_Location, Review_
 
 ![](images/e8f8e0517c21503d495c1b4794802125.png) 
 
-First step is exploratory data
-analysis (EDA) to get an idea of average ratings across all locations, how the
+First step is exploratory data analysis (EDA) to get an idea of average ratings across all locations, how the
 ratings changed over time and where our visitors are from.
 
 The ratings of DL in California have been decreasing over years, ratings of DL
@@ -48,10 +48,9 @@ are from the United States.
 **Word Clouds:**
 
 ![](images/6289f933ed9988e16d3f93da9bb9b5b3.png)
-Here are some interesting word
-clouds to get a general idea of what visitors are talking about in their reviews
-on Disney Land Visit. Only English reviews are considered also duplicate reviews
-are removed.
+
+Here are some interesting word clouds to get a general idea of what visitors are talking about in their reviews
+on Disney Land Visit. Only English reviews are considered also duplicate reviews are removed.
 
 **Word cloud for reviews for Disneyland in California**
 
