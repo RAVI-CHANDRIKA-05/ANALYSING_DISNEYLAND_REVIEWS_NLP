@@ -20,14 +20,15 @@ Inspiration: [References1!..](https://towardsdatascience.com/analyzing-disneylan
 The dataset is found in Kaggle containing 42,000 reviews from TripAdvisor about
 three Disneyland branch locations: California, Paris, Hong Kong.
 
-![](images/299201dfec41f8de1156ce01ae5e3df5.png)There are 19,406 reviews about
-California, 13,630 about Paris, and 9,620 about Hong Kong. Data variables
-include Review_ID, Rating, Year_Month, Reviewer_Location, Review_Text, and
-Disneyland_Branch.
+![](images/299201dfec41f8de1156ce01ae5e3df5.png)
+There are 19,406 reviews about California, 13,630 about Paris, and 9,620 about Hong Kong.
+Data variables include Review_ID, Rating, Year_Month, Reviewer_Location, Review_Text, and Disneyland_Branch.
 
 # Exploratory Data Analysis:
 
-![](images/e8f8e0517c21503d495c1b4794802125.png) First step is exploratory data
+![](images/e8f8e0517c21503d495c1b4794802125.png) 
+
+First step is exploratory data
 analysis (EDA) to get an idea of average ratings across all locations, how the
 ratings changed over time and where our visitors are from.
 
@@ -46,7 +47,8 @@ are from the United States.
 
 **Word Clouds:**
 
-![](images/6289f933ed9988e16d3f93da9bb9b5b3.png)Here are some interesting word
+![](images/6289f933ed9988e16d3f93da9bb9b5b3.png)
+Here are some interesting word
 clouds to get a general idea of what visitors are talking about in their reviews
 on Disney Land Visit. Only English reviews are considered also duplicate reviews
 are removed.
@@ -78,7 +80,8 @@ sentiment. For this step, I used three methods TextBlob, Vader and NLTK.
 
 ### Sentiment Analysis using TextBlob:
 
-![](images/e950f9ac58716d8fc96d70b9a72b856f.png)The sentiment function of
+![](images/e950f9ac58716d8fc96d70b9a72b856f.png)
+The sentiment function of
 textblob returns two properties, polarity, and subjectivity.
 
 #### What is Sentiment Polarity
@@ -125,8 +128,8 @@ ratings which have been normalized between -1(most extreme negative) and +1
 
 -   neutral sentiment: (compound score \>=0.4) and (compound score \< 0.65)
 
--   ![](images/1489b4cd8b82508551ede88e02637166.png)negative sentiment:
-    (compound score \<0.4)
+-   negative sentiment:    (compound score \<0.4)
+![](images/1489b4cd8b82508551ede88e02637166.png)
 
 ### Using NLTK’s Pre-Trained Sentiment Analyzer
 
@@ -151,7 +154,7 @@ instance we can classify the reviews.
 
 -   negative sentiment: (compound score \< 0)
 
-### ![](images/b6a8519959dd6ee9a0c1a29e6a6417db.png)
+![](images/b6a8519959dd6ee9a0c1a29e6a6417db.png)
 
 ### 
 
@@ -165,8 +168,8 @@ Last but not the least is assigning sentiment based on the rating.
 
 -   neutral sentiment: (rating==3)
 
--   ![](images/09fe074dc99ba9e3c5accfa7c71070db.png)negative sentiment: (rating
-    \<3)
+-   negative sentiment: (rating <3)
+![](images/09fe074dc99ba9e3c5accfa7c71070db.png)
 
 # Emotion Detection
 
@@ -254,7 +257,8 @@ of tickets they purchased and experience.
 
 # Find reviews where ngram occurs
 
-![](images/6f4827e0ab30d6e9b50e653235b5be8e.png)Using collocation identification
+![](images/6f4827e0ab30d6e9b50e653235b5be8e.png)
+Using collocation identification
 and further analysing visitor sentiment on toy story land, we can find the
 emotion on reviews.
 
